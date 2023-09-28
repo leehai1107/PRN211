@@ -1,0 +1,8 @@
+E:\VScode_projects\PRNLab1\AutomobileSolution\AutomobileWinApp\obj\Release\net6.0-windows\AutomobileWinApp.csproj.AssemblyReference.cache
+E:\VScode_projects\PRNLab1\AutomobileSolution\AutomobileWinApp\obj\Release\net6.0-windows\AutomobileWinApp.frmCarDetails.resources
+E:\VScode_projects\PRNLab1\AutomobileSolution\AutomobileWinApp\obj\Release\net6.0-windows\AutomobileWinApp.frmCarManagement.resources
+E:\VScode_projects\PRNLab1\AutomobileSolution\AutomobileWinApp\obj\Release\net6.0-windows\AutomobileWinApp.csproj.GenerateResource.cache
+E:\VScode_projects\PRNLab1\AutomobileSolution\AutomobileWinApp\obj\Release\net6.0-windows\AutomobileWinApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\VScode_projects\PRNLab1\AutomobileSolution\AutomobileWinApp\obj\Release\net6.0-windows\AutomobileWinApp.AssemblyInfoInputs.cache
+E:\VScode_projects\PRNLab1\AutomobileSolution\AutomobileWinApp\obj\Release\net6.0-windows\AutomobileWinApp.AssemblyInfo.cs
+E:\VScode_projects\PRNLab1\AutomobileSolution\AutomobileWinApp\obj\Release\net6.0-windows\AutomobileWinApp.csproj.CoreCompileInputs.cache
