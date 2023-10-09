@@ -184,5 +184,11 @@ namespace DataAccess
             return member;
         }
 
+        public List<MemberObject> GetMembersSortedByNameDescending()
+        {
+            List<MemberObject> sortedMembers = members.OrderByDescending(m => m.name).ToList();
+            return sortedMembers;
+        }
+
     }
 }

@@ -24,5 +24,7 @@ namespace DataAccess.Repository
 
         public MemberObject GetMemberByEmail(String email) => MemberDAO.Instance.FindMembersByEmail(email);
 
+        public List<MemberObject> GetMembersSortedByNameDescending() => MemberDAO.Instance.GetMembersSortedByNameDescending();
+
     }
 }

@@ -159,6 +159,13 @@ namespace MyStoreWinApp
                 dgvMembers.DataSource = list;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dgvMembers.DataSource = null;
+            dgvMembers.DataSource = memberRepository.GetMembersSortedByNameDescending();
+
+        }
     }
  }
 

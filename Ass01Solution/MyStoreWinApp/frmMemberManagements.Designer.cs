@@ -37,6 +37,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtSearchName = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMembers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -92,7 +93,7 @@
             // 
             // txtSearchId
             // 
-            this.txtSearchId.Location = new System.Drawing.Point(639, 71);
+            this.txtSearchId.Location = new System.Drawing.Point(639, 70);
             this.txtSearchId.Name = "txtSearchId";
             this.txtSearchId.PlaceholderText = "ID";
             this.txtSearchId.Size = new System.Drawing.Size(61, 27);
@@ -101,7 +102,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(28, 461);
+            this.btnDelete.Location = new System.Drawing.Point(28, 459);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(74, 32);
             this.btnDelete.TabIndex = 17;
@@ -128,11 +129,22 @@
             this.txtSearchName.TabIndex = 19;
             this.txtSearchName.TextChanged += new System.EventHandler(this.txtSearchName_TextChanged);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(28, 70);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(130, 29);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Sort members";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmMemberManagements
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 505);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtSearchName);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnDelete);
@@ -163,5 +175,6 @@
         private Button btnDelete;
         private Button btnSearch;
         private TextBox txtSearchName;
+        private Button button1;
     }
 }

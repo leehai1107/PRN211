@@ -16,5 +16,6 @@ namespace DataAccess.Repository
         void AddMember(MemberObject member);
         List<MemberObject> findMembersByName(string name);
         MemberObject GetMemberByEmail(String email);
+        List<MemberObject> GetMembersSortedByNameDescending();
     }
 }
