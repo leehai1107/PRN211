@@ -1,0 +1,12 @@
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\bin\Debug\net6.0\AutomobileLib.deps.json
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\bin\Debug\net6.0\AutomobileLib.dll
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\bin\Debug\net6.0\AutomobileLib.pdb
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\obj\Debug\net6.0\AutomobileLib.csproj.AssemblyReference.cache
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\obj\Debug\net6.0\AutomobileLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\obj\Debug\net6.0\AutomobileLib.AssemblyInfoInputs.cache
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\obj\Debug\net6.0\AutomobileLib.AssemblyInfo.cs
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\obj\Debug\net6.0\AutomobileLib.csproj.CoreCompileInputs.cache
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\obj\Debug\net6.0\AutomobileLib.dll
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\obj\Debug\net6.0\refint\AutomobileLib.dll
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\obj\Debug\net6.0\AutomobileLib.pdb
+E:\Fall2023\PRN211\AutomobileSolution2\AutomobileLib\obj\Debug\net6.0\ref\AutomobileLib.dll
