@@ -51,11 +51,9 @@ namespace DataAccess
                 if(obj != null)
                 {
                     context.Orders.Remove(obj);
+                    context.SaveChanges();
                 }
-                else
-                {
-                    throw new Exception("Can not find the Order!");
-                }
+                
             }
         }
 
@@ -67,6 +65,7 @@ namespace DataAccess
                 if (findOrder != null)
                 {
                     context.Orders.Update(order);
+                    context.SaveChanges();
                 }
             }
         }
@@ -79,6 +78,7 @@ namespace DataAccess
                 if(findOrder == null)
                 {
                     context.Orders.Add(order);
+                    context.SaveChanges();
                 }
             }
         }

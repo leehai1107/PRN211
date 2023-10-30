@@ -56,6 +56,10 @@ E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\bin\Debug\net6.0-windows\DataAccess
 E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\bin\Debug\net6.0-windows\BusinessObject.pdb
 E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\bin\Debug\net6.0-windows\DataAccess.pdb
 E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.csproj.AssemblyReference.cache
+E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.frmMain.resources
+E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.frmMembers.resources
+E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.frmOrders.resources
+E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.frmProducts.resources
 E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.csproj.GenerateResource.cache
 E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.GeneratedMSBuildEditorConfig.editorconfig
 E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.AssemblyInfoInputs.cache
@@ -67,7 +71,3 @@ E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\refint\MyS
 E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.pdb
 E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.genruntimeconfig.cache
 E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\ref\MyStoreWinApp.dll
-E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.frmMain.resources
-E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.frmOrders.resources
-E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.frmProducts.resources
-E:\Fall2023\PRN211\Assignment2\MyStoreWinApp\obj\Debug\net6.0-windows\MyStoreWinApp.frmMembers.resources

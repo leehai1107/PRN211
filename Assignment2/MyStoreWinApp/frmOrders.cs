@@ -62,58 +62,36 @@ namespace MyStoreWinApp
             int productId = Convert.ToInt32(cbProduct.SelectedValue);
             int memberId = Convert.ToInt32(txtMemberId.Text);
             float unitPrice = float.Parse(txtUnitPrice.Text);
-            int quantity = Convert.ToInt32(txtQuantity.Text);
-            float discount = float.Parse(txtDiscount.Text);
+            int quantity = Convert.ToInt32(txtQuantity.Value);
+            float discount = 0;
+            float.TryParse(txtDiscount.Text, out discount);
 
             // Create a new order or update an existing order
-            Order order;
-            if (orderId == 0)
+            Order order = new Order()
             {
-                // Create a new order
-                order = new Order()
-                {
-                    MemberId = memberId,
-                    Freight = null,  // Set the appropriate value for Freight
-                    OrderDate = DateTime.Now,  // Set the order date
-                    RequiredDate = checkReqDate.Checked ? null : (DateTime?)requiredDate.Value,  // Set the required date if not checked
-                    ShippedDate = checkShipDate.Checked ? null : (DateTime?)shippedDate.Value  // Set the shipped date if not checked
-                };
-                orderRepository.addOrder(order);
-                orderId = order.OrderId;  // Retrieve the generated order ID
-            }
-            else
-            {
-                // Update an existing order
-                order = orderRepository.GetOrder(orderId);
-                order.MemberId = memberId;
-                order.RequiredDate = checkReqDate.Checked ? null : (DateTime?)requiredDate.Value;  // Set the required date if not checked
-                order.ShippedDate = checkShipDate.Checked ? null : (DateTime?)shippedDate.Value;  // Set the shipped date if not checked
-                orderRepository.updateOrder(order);
-            }
+                OrderId = orderId,
+                MemberId = memberId,
+                Freight = null,  // Set the appropriate value for Freight
+                OrderDate = DateTime.Now,  // Set the order date
+                RequiredDate = checkReqDate.Checked ? null : (DateTime?)requiredDate.Value,  // Set the required date if not checked
+                ShippedDate = checkShipDate.Checked ? null : (DateTime?)shippedDate.Value  // Set the shipped date if not checked
+            };
+            orderRepository.addOrder(order);
 
-            // Create a new order detail or update an existing order detail
-            OrderDetail orderDetail = orderDetailRepository.GetOrderDetail(orderId, productId);
-            if (orderDetail == null)
+
+
+            
+            // Create a new order detail
+            OrderDetail orderDetail = new OrderDetail()
             {
-                // Create a new order detail
-                orderDetail = new OrderDetail()
-                {
-                    OrderId = orderId,
-                    ProductId = productId,
-                    UnitPrice = (decimal)unitPrice,
-                    Quantity = quantity,
-                    Discount = discount
-                };
-                orderDetailRepository.AddOrderDetail(orderDetail);
-            }
-            else
-            {
-                // Update an existing order detail
-                orderDetail.UnitPrice = (decimal)unitPrice;
-                orderDetail.Quantity = quantity;
-                orderDetail.Discount = discount;
-                orderDetailRepository.updateOrderDetail(orderDetail);
-            }
+                OrderId = orderId,
+                ProductId = productId,
+                UnitPrice = (decimal)unitPrice,
+                Quantity = quantity,
+                Discount = discount
+            };
+            orderDetailRepository.AddOrderDetail(orderDetail);
+
 
             // Refresh the order list and clear the form
             loadOrder();

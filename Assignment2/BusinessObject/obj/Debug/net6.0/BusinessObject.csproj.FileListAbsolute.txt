@@ -1,4 +1,5 @@
 E:\Fall2023\PRN211\Assignment2\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
+E:\Fall2023\PRN211\Assignment2\BusinessObject\bin\Debug\net6.0\BusinessObject.runtimeconfig.json
 E:\Fall2023\PRN211\Assignment2\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
 E:\Fall2023\PRN211\Assignment2\BusinessObject\bin\Debug\net6.0\BusinessObject.pdb
 E:\Fall2023\PRN211\Assignment2\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.AssemblyReference.cache
@@ -9,6 +10,5 @@ E:\Fall2023\PRN211\Assignment2\BusinessObject\obj\Debug\net6.0\BusinessObject.cs
 E:\Fall2023\PRN211\Assignment2\BusinessObject\obj\Debug\net6.0\BusinessObject.dll
 E:\Fall2023\PRN211\Assignment2\BusinessObject\obj\Debug\net6.0\refint\BusinessObject.dll
 E:\Fall2023\PRN211\Assignment2\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
-E:\Fall2023\PRN211\Assignment2\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
-E:\Fall2023\PRN211\Assignment2\BusinessObject\bin\Debug\net6.0\BusinessObject.runtimeconfig.json
 E:\Fall2023\PRN211\Assignment2\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
+E:\Fall2023\PRN211\Assignment2\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
