@@ -61,5 +61,15 @@ namespace DataAccess
                 context.SaveChanges();
             }
         }
+
+        public void deleteOrderDetail(int orderId, int productId)
+        {
+            using(Assignment2Context context = new Assignment2Context())
+            {
+                OrderDetail orderDetail = getAnOrderDetail(orderId, productId);
+                context.OrderDetails.Remove(orderDetail);
+                context.SaveChanges();
+            }
+        }
     }
 }

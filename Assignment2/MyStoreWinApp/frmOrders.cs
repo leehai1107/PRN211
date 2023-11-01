@@ -195,5 +195,14 @@ namespace MyStoreWinApp
             clearData();
         }
 
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            int orderId = Convert.ToInt32(txtId.Text);
+            int productId = Convert.ToInt32(cbProduct.SelectedValue);
+            orderDetailRepository.deleteOrderDetail(orderId, productId);
+            orderRepository.deleteOrder(orderId);
+            loadOrder();
+            clearData();
+        }
     }
 }

@@ -13,5 +13,6 @@ namespace DataAccess.Repository
         public void updateOrderDetail(OrderDetail orderDetail);
         public List<OrderDetail> GetOrderDetails();
         public void AddOrderDetail(OrderDetail orderDetail);
+        public void deleteOrderDetail(int orderId, int productId);
     }
 }
