@@ -1,0 +1,15 @@
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\bin\Debug\net6.0\appsettings.json
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\bin\Debug\net6.0\BusinessObjects.deps.json
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\bin\Debug\net6.0\BusinessObjects.runtimeconfig.json
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\bin\Debug\net6.0\BusinessObjects.dll
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\bin\Debug\net6.0\BusinessObjects.pdb
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\obj\Debug\net6.0\BusinessObjects.csproj.AssemblyReference.cache
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\obj\Debug\net6.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\obj\Debug\net6.0\BusinessObjects.AssemblyInfoInputs.cache
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\obj\Debug\net6.0\BusinessObjects.AssemblyInfo.cs
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\obj\Debug\net6.0\BusinessObjects.csproj.CoreCompileInputs.cache
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\obj\Debug\net6.0\BusinessObjects.dll
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\obj\Debug\net6.0\refint\BusinessObjects.dll
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\obj\Debug\net6.0\BusinessObjects.pdb
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\obj\Debug\net6.0\BusinessObjects.genruntimeconfig.cache
+E:\Fall2023\PRN211\GroupAssignment\BussinessObjects\obj\Debug\net6.0\ref\BusinessObjects.dll
