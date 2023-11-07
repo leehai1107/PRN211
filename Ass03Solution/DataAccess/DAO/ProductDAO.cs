@@ -122,7 +122,7 @@ namespace DataAccess
             List<Product> list = new List<Product>();
             using (var db = new Assignment2Context())
             {
-                list = db.Products.Where(pro => pro.UnitPrice == unitPrice && pro.UnitslnStock == unitslnStock).ToList();
+                list = db.Products.Where(pro => pro.UnitPrice == unitPrice && pro.UnitInStock == unitslnStock).ToList();
             }
             return list;
         }
@@ -153,7 +153,7 @@ namespace DataAccess
             {
                 using (var dbContext = new Assignment2Context())
                 {
-                    listPro = dbContext.Products.Where(product => product.UnitslnStock.ToString().Contains(unitSlnStock.ToLower())).ToList();
+                    listPro = dbContext.Products.Where(product => product.UnitInStock.ToString().Contains(unitSlnStock.ToLower())).ToList();
                 }
 
             }

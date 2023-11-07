@@ -27,7 +27,7 @@ public partial class Assignment2Context : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
-        optionsBuilder.UseSqlServer(config.GetConnectionString("MyCnn"));
+        optionsBuilder.UseSqlServer(config.GetConnectionString("FStoreDB"));
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

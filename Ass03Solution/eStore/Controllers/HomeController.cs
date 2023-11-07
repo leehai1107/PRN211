@@ -1,6 +1,12 @@
-﻿using eStore.Models;
+﻿using BusinessObject.Models;
+using eStore.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace eStore.Controllers
 {
@@ -28,5 +34,7 @@ namespace eStore.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        
     }
 }
